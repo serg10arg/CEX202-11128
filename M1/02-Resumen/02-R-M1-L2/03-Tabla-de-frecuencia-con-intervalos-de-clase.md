@@ -84,7 +84,7 @@ Supongamos que tenemos los siguientes datos sobre el costo total de pasajes (en 
 -             frᵢ% = frᵢ x 100 
 -      Para el primer intervalo: frᵢ% = 0.30 x 100 = 30%.
 - **Frecuencia Absoluta Acumulada (Fᵢ)**: Es la suma de las frecuencias absolutas de todos los intervalos anteriores.
-    - Para el segundo intervalo: F2 = 7 + 6 = 13 . 
+-     Para el segundo intervalo: F2 = 7 + 6 = 13 . 
 
 ---
 
