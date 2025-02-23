@@ -13,13 +13,13 @@ Supongamos que tenemos los siguientes datos sobre el costo total de pasajes (en 
 #### Pasos para Construir la Tabla:
 
 1. **Determinar el Número de Intervalos (k)**:
-    - Usamos la fórmula: \( k = \sqrt{n} \), donde \( n \) es el número de datos.
-    - En este caso, \( n = 23 \), entonces \( k = \sqrt{23} \approx 4.8 \). Redondeamos a 5 intervalos.
+    - Usamos la fórmula: k = √n, donde n es el número de datos.
+    - En este caso, n = 23, entonces k = √23 ≈ approx 4.8. Redondeamos a 5 intervalos.
 
 2. **Calcular la Amplitud del Intervalo (Δx)**:
-    - Fórmula: \( \Delta x = \frac{\text{Dato mayor} - \text{Dato menor}}{k} \).
+    -             Fórmula: Δx = Dato mayor - Dato menor / k
     - Dato mayor = 8000, Dato menor = 338.
-    - \( \Delta x = \frac{8000 - 338}{5} = \frac{7662}{5} = 1532.4 \). Redondeamos a 1533.
+    - Δx = 8000 - 338 / 5  = 7662 / 5 = 1532.4 Redondeamos a 1533.
 
 3. **Definir los Intervalos**:
     - Los intervalos se construyen sumando la amplitud (1533) al límite inferior de cada intervalo.
@@ -27,9 +27,7 @@ Supongamos que tenemos los siguientes datos sobre el costo total de pasajes (en 
 
 4. **Calcular la Marca de Clase (xmᵢ)**:
     - La marca de clase es el punto medio de cada intervalo y se calcula como:
-      \[
-      xm_i = \frac{L₁ + L₂}{2}
-      \]
+    -                       xmᵢ = L₁ + L₂ / 2
     - Representa el valor central del intervalo y se usa para cálculos posteriores, como el promedio.
 
 5. **Contar las Frecuencias**:
@@ -52,16 +50,15 @@ Supongamos que tenemos los siguientes datos sobre el costo total de pasajes (en 
 ### Explicación de los Cálculos
 
 #### 1. **Número de Intervalos (k)**
-- Se calcula usando la fórmula \( k = \sqrt{n} \), donde \( n \) es el número de datos.
-- En este caso, \( n = 23 \), entonces \( k = \sqrt{23} \approx 4.8 \). Redondeamos a 5 intervalos.
+- Se calcula usando la fórmula;
+-     k = √n, donde n es el número de datos.
+- En este caso, n = 23 , entonces k = √23 ≈ 4.8. Redondeamos a 5 intervalos.
 
 #### 2. **Amplitud del Intervalo (Δx)**
 - Se calcula como:
-  \[
-  \Delta x = \frac{\text{Dato mayor} - \text{Dato menor}}{k}
-  \]
+-     Δx = Dato mayor - Dato menor / k
 - Dato mayor = 8000, Dato menor = 338.
-- \( \Delta x = \frac{8000 - 338}{5} = \frac{7662}{5} = 1532.4 \). Redondeamos a 1533.
+- Δx = 8000 - 338 / 5 = 7662 / 5 = 1532.4. Redondeamos a 1533.
 
 #### 3. **Intervalos de Clase**
 - Los intervalos se construyen sumando la amplitud (1533) al límite inferior de cada intervalo.
@@ -72,24 +69,22 @@ Supongamos que tenemos los siguientes datos sobre el costo total de pasajes (en 
 
 #### 4. **Marca de Clase (xmᵢ)**
 - La marca de clase es el punto medio de cada intervalo y se calcula como:
-  \[
-  xm_i = \frac{L₁ + L₂}{2}
-  \]
+-              xmᵢ = L₁ + L₂ / 2
 - Por ejemplo, para el primer intervalo [338, 1871):
-  \[
-  xm_1 = \frac{338 + 1871}{2} = \frac{2209}{2} = 1104.5
-  \]
+-       xmᵢ = 338 + 1871 / 2 = 2209 / 2 = 1104.5
 - La marca de clase representa el valor central del intervalo y se usa en cálculos como el promedio.
 
 #### 5. **Frecuencias**
 - **Frecuencia Absoluta (fᵢ)**: Contamos cuántos datos caen en cada intervalo.
     - Por ejemplo, en el primer intervalo [338, 1871), hay 7 datos.
-- **Frecuencia Relativa (frᵢ)**: Se calcula como \( fr_i = \frac{f_i}{n} \).
-    - Para el primer intervalo: \( fr_1 = \frac{7}{23} \approx 0.30 \).
-- **Frecuencia Porcentual (frᵢ%)**: Se calcula como \( fr_i\% = fr_i \times 100 \).
-    - Para el primer intervalo: \( fr_1\% = 0.30 \times 100 = 30\% \).
+- **Frecuencia Relativa (frᵢ)**: Se calcula como;
+-                 frᵢ= fᵢ / n
+-     Para el primer intervalo: fr1 = 7 / 23 ≈ approx 0.30.        
+- **Frecuencia Porcentual (frᵢ%)**: Se calcula como;
+-             frᵢ% = frᵢ x 100 
+-      Para el primer intervalo: frᵢ% = 0.30 x 100 = 30%.
 - **Frecuencia Absoluta Acumulada (Fᵢ)**: Es la suma de las frecuencias absolutas de todos los intervalos anteriores.
-    - Para el segundo intervalo: \( F_2 = 7 + 6 = 13 \).
+-     Para el segundo intervalo: F2 = 7 + 6 = 13 . 
 
 ---
 
