@@ -58,11 +58,11 @@ El cálculo de probabilidades es fundamental en la toma de decisiones, especialm
 
   **Tabla de Contingencia**:
 
-  | Capacidad | 500 ml | 1000 ml | 1500 ml | Totales |
-      | --- | --- | --- | --- | --- |
-  | Menos de 2 defectos | 350 | 390 | 200 | 940 |
-  | 2 o más defectos | 50 | 130 | 80 | 260 |
-  | Totales | 400 | 520 | 280 | 1200 |
+  | Capacidad           | 500 ml | 1000 ml | 1500 ml | Totales |
+      |---------------------|--------|---------|---------|---------|
+  | Menos de 2 defectos | 350    | 390     | 200     | 940     |
+  | 2 o más defectos    | 50     | 130     | 80      | 260     |
+  | Totales             | 400    | 520     | 280     | 1200    |
 - **Ejemplo 2: Becas de la Fundación Antares**
 
   Se analizan egresados de Córdoba clasificados por carrera (Administración-Dirección, Otras) y tipo de universidad (pública, privada). La tabla de contingencia permite calcular:
@@ -73,11 +73,11 @@ El cálculo de probabilidades es fundamental en la toma de decisiones, especialm
 
   **Tabla de Contingencia**:
 
-  | Universidad | Pública | Privada | Totales |
-      | --- | --- | --- | --- |
-  | Administración | 221 | 539 | 760 |
-  | Otras | 9517 | 6198 | 15715 |
-  | Totales | 9738 | 6737 | 16475 |
+  | Universidad    | Pública | Privada | Totales |
+      |----------------|---------|---------|---------|
+  | Administración | 221     | 539     | 760     |
+  | Otras          | 9517    | 6198    | 15715   |
+  | Totales        | 9738    | 6737    | 16475   |
 
 ### **2. Uso de Árboles de Decisión**
 
