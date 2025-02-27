@@ -57,7 +57,9 @@ El cálculo de probabilidades es fundamental en la toma de decisiones, especialm
   - Probabilidad de que una botella sea de 1000 ml y tenga menos de 2 defectos.
 
   **Tabla de Contingencia**:
-![Taba](Imagenes/16.png)
+    
+  ![Tabla](Imagenes/16.png)
+
 - **Ejemplo 2: Becas de la Fundación Antares**
 
   Se analizan egresados de Córdoba clasificados por carrera (Administración-Dirección, Otras) y tipo de universidad (pública, privada). La tabla de contingencia permite calcular:
